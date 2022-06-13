@@ -1,0 +1,34 @@
+{
+    "name": "kikter/laravel-trends",
+    "description": "Laravel Trends provides a lightweight trending system to your application.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adeala Ademola",
+            "email": "kikter24@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Hacklabs\\Trends\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hacklabs\\Trends\\TrendsServiceProvider"
+            ],
+            "aliases": {
+                "LaravelRating": "Hacklabs\\Trends\\TrendsFacade"
+            }
+        }
+    },
+    "require": {
+        "php": "^7.2|^8.0",
+        "illuminate/contracts": "^6.9|^7.0|^8.0|^9.0",
+        "illuminate/database": "^6.9|^7.0|^8.0|^9.0",
+        "illuminate/support": "^6.9|^7.0|^8.0|^9.0"
+    }
+}

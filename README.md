@@ -17,7 +17,7 @@ Before you install the package make sure you have queues working and running sin
 
 You may install Laravel Trends via Composer:
 
-`$ composer require hacklabsdev/laravel-trends`
+`$ composer require kikter/laravel-trends`
 
 Next, publish the Trends configuration and migration files using the vendor:publish command. The configuration file will be placed in your config directory:
 
